@@ -13,8 +13,8 @@ String formattedMonth(
 
 const int _kMaxDayPickerRowCount = 1; // A 31 day month that starts on Saturday.
 // Two extra rows: one for the day-of-week header and one for the month header.
-// const double _kMaxDayPickerHeight =
-//     _kDayPickerRowHeight * (_kMaxDayPickerRowCount + 2);
+const double _kMaxDayPickerHeight =
+    _kDayPickerRowHeight ;
 
 class CleanNepaliCalendar extends StatefulWidget {
   const CleanNepaliCalendar({

@@ -11,10 +11,10 @@ String formattedMonth(
       NepaliDateTime(1970, month),
     );
 
-const int _kMaxDayPickerRowCount = 1; // A 31 day month that starts on Saturday.
+const int _kMaxDayPickerRowCount = 6; // A 31 day month that starts on Saturday.
 // Two extra rows: one for the day-of-week header and one for the month header.
 const double _kMaxDayPickerHeight =
-    _kDayPickerRowHeight ;
+    _kDayPickerRowHeight * (_kMaxDayPickerRowCount + 2);
 
 class CleanNepaliCalendar extends StatefulWidget {
   const CleanNepaliCalendar({

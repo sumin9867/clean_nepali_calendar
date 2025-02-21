@@ -212,7 +212,7 @@ class _MonthViewState extends State<_MonthView>
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: MediaQuery.of(context).size.height*.4,
+      height: _kMaxDayPickerHeight,
       child: Column(
         children: <Widget>[
           _CalendarHeader(
